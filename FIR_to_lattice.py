@@ -14,6 +14,6 @@ def fir_to_lattice(fir):
     return lattice
 
 
-z = []  #enter normalized (highest order coefficient must be 1) FIR filter coefficients here 
+z = []  #enter normalized (h[0]=1) FIR filter coefficients here 
 k = fir_to_lattice(z)
 print(k)
